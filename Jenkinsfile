@@ -6,7 +6,7 @@ pipeline{
               }
         }
         stages {
-                  stage ("satge-1"){
+                  stage ('satge-1'){
                                     sh '''
                                           rm -rf /var/www/html/index.html
                                           cp /mnt/webhook1/index.html /var/www/html/
